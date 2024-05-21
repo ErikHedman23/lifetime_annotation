@@ -19,7 +19,7 @@ fn main() {
     println!("result is {}", result);
 }
 
-// The three rules for implicit lifetimes
+// The three rules for implicit lifetimes (LIfetime Elision Rules):
 /*
 1. Each input parameter that is a reference is assigned its own lifetime
 
